@@ -3,7 +3,7 @@ function valideForm() {
         regexp_email = /^([a-z0-9_\.-]+)@([a-z0-9_\.-]+)\.([a-z\.]{2,6})$/,
         regexp_phone = /^\+\d{1,3}\s?\(\d{3}\)\s?\d{3}(-\d{2}){2}$/,
         regexp_message = /[a-zа-яё0-9]/;
-////////////////////////////////////////////////////////////////
+/////////////////////
     let name = document.getElementsByName('name')[0].value,
         email = document.getElementsByName('email')[0].value,
         phone = document.getElementsByName('phone')[0].value,
